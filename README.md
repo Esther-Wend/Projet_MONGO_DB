@@ -39,3 +39,9 @@ Enfin, les résultats d'agrégation doivent être ajoutés ou mis à jour dans l
 Automatisation du pipeline de données
 
 Chaque semaine, le job Spark doit être exécuté afin de pouvoir mettre à jour les données du tableau de bord. Cette automatisation doit être capable de gérer l'idempotence, c'est-à-dire que si un calcul est relancé sur une même semaine, alors ce dernier ne doit pas dupliquer les données déjà présentes dans la table weekly_transactions sur la base PostgreSQL, mais doit remplacer les valeurs existantes par celles calculées.
+
+## Environnements utilisés
+![image](https://github.com/user-attachments/assets/5be0a082-97d6-4247-b043-3c4456eb8561)
+
+
+
