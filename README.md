@@ -1,5 +1,7 @@
 # Projet_MONGO_DB
 Il s'agit d'un projet dans le cadre de ma montée en compétence sur MONGO DB au sein de mon entreprise.
+
+## Description du projet 
 Pour des besoins de contrôle interne, une entreprise financière stocke l'ensemble des transactions réalisées par des collaborateurs dans une base de données MongoDB. L'entreprise cherche à agréger automatiquement les informations depuis cette base MongoDB vers une base PostgreSQL, afin de pouvoir détecter les achats abusifs ou non justifiés dans un cadre professionnel.
 
 Dans l'optique de pouvoir bénéficier de rapports complets, les responsables des unités de contrôle de gestion utiliseront un tableau de bord pouvant récapituler les informations les plus importantes sur les achats internes. Ce tableau de bord sera alors alimenté par les données issues de la base PostgreSQL. En tant que Data Engineer, la banque vous propose de créer un pipeline de données automatisé entre MongoDB et PostgreSQL, afin de pouvoir mettre à jour automatiquement le tableau de bord avec des données les plus récentes.
